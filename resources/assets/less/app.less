@@ -1,8 +1,27 @@
 @import "bootstrap/bootstrap";
 
 @btn-font-weight: 300;
-@font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+@font-family-sans-serif: 'Source Sans Pro', sans-serif;
 
 body, label, .checkbox label {
 	font-weight: 300;
 }
+
+body{
+	padding-top: 51px;
+}
+
+/* Components */
+@border-radius-large:       4px;
+
+/* Buttons */
+@btn-default-border:             #e7e7e7;
+
+.btn{
+	&:hover,&:focus{
+		border: 1px solid #e7e7e7;
+		background-color: #f3f3f3;
+	}
+}
+
+@input-border:                   #e7e7e7;
